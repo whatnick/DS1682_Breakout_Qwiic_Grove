@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name DS1682_Breakout_Qwiic_Grove)(type KiCad)(uri ${KIPRJMOD}/modules/DS1682_Breakout_Qwiic_Grove.pretty)(options "")(descr ""))
+)
