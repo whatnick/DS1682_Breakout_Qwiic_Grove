@@ -388,4 +388,15 @@ F 3 "" H 900 6300 50  0001 C CNN
 $EndComp
 Text Notes 4050 2000 0    59   ~ 0
 稳压电路
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5F9E751C
+P 3584 5278
+F 0 "LOGO1" H 3584 5778 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 3584 4878 50  0001 C CNN
+F 2 "DS1682_Breakout_Qwiic_Grove:OSHW_FILLX200_NOTEXT" H 3584 5278 50  0001 C CNN
+F 3 "~" H 3584 5278 50  0001 C CNN
+	1    3584 5278
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -880,7 +880,7 @@
 
   (module OSHW_FILLX200_NOTEXT (layer Bottom) (tedit 0) (tstamp 5F9CF3FE)
     (at 146.7231 113.7666 180)
-    (fp_text reference U$4 (at 0 0 180) (layer B.SilkS) hide
+    (fp_text reference LOGO1 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify mirror))
     )
     (fp_text value "" (at 0 0 180) (layer B.SilkS) hide

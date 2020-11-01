@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Tisham\Documents\kicad\DS1682_Breakout_Qwiic_Grove\DS1682_Breakout_Qwiic_Grove.sch)
-    (date "1/11/2020 9:22:41 AM")
+    (date "1/11/2020 5:52:57 PM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -110,7 +110,14 @@
         (field (name manf#) "SM02B-SRSS-TB(LF)(SN)"))
       (libsource (lib DS1682_Breakout_Qwiic_Grove-eagle-import) (part SMD-JST-2P-1.0-90D) (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp BF684172)))
+      (tstamp BF684172))
+    (comp (ref LOGO1)
+      (value Logo_Open_Hardware_Large)
+      (footprint DS1682_Breakout_Qwiic_Grove:OSHW_FILLX200_NOTEXT)
+      (datasheet ~)
+      (libsource (lib Graphic) (part Logo_Open_Hardware_Large) (description "Open Hardware logo, large"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5F9E751C)))
   (libparts
     (libpart (lib DS1682_Breakout_Qwiic_Grove-eagle-import) (part BSS138PS)
       (fields
@@ -194,10 +201,18 @@
       (pins
         (pin (num 1) (name VSS) (type power_in))
         (pin (num 2) (name VOUT) (type output))
-        (pin (num 3) (name VIN) (type input)))))
+        (pin (num 3) (name VIN) (type input))))
+    (libpart (lib Graphic) (part Logo_Open_Hardware_Large)
+      (description "Open Hardware logo, large")
+      (docs ~)
+      (fields
+        (field (name Reference) "#LOGO")
+        (field (name Value) Logo_Open_Hardware_Large))))
   (libraries
     (library (logical DS1682_Breakout_Qwiic_Grove-eagle-import)
-      (uri C:\Users\Tisham\Documents\kicad\DS1682_Breakout_Qwiic_Grove/DS1682_Breakout_Qwiic_Grove-eagle-import.lib)))
+      (uri C:\Users\Tisham\Documents\kicad\DS1682_Breakout_Qwiic_Grove/DS1682_Breakout_Qwiic_Grove-eagle-import.lib))
+    (library (logical Graphic)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Graphic.lib")))
   (nets
     (net (code 1) (name /EVENT)
       (node (ref D1) (pin 1))
